@@ -1,8 +1,24 @@
+# Overview
+
+To build:
+```
+git submodule update --init --recursive
+# yarn install
+# yarn tauri info
+yarn tauri dev
+yarn tauri build --debug
+```
+
+To start a Webview:
+```
+RUST_DEBUG=1 yarn tauri dev
+```
+
 <p align="center">
   <a href="https://applemusicelectron.com/"><img src="https://cryptofyre.org/AME/assets/img/banneropen.png" alt="Banner"></a>
 </p>
 
-<p align="center"> 
+<p align="center">
   <a href="https://github.com/Apple-Music-Electron/Apple-Music-Electron/releases/latest"><strong>View the releases! »</strong></a><br /><br />
   <a href="https://twitter.com/AppleElectron">Follow Me</a>
   <b> · </b>
@@ -15,7 +31,7 @@
   <a href="https://discord.gg/CezHYdXHEM">Discord</a><br />
 </p>
 
-<p align="center"> 
+<p align="center">
   <img src="https://img.shields.io/github/stars/Apple-Music-Electron/Apple-Music-Electron" alt="Stars">
   <img src="https://img.shields.io/github/forks/Apple-Music-Electron/Apple-Music-Electron" alt="Forks">
   <img src="https://img.shields.io/github/license/Apple-Music-Electron/Apple-Music-Electron" alt="MIT">

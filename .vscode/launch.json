@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    {
+        "name": "Tauri Dev Window",
+        // "program": "${workspaceFolder}/main.js",
+        "request": "launch",
+        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/tauri",
+        "args": [
+            "dev"
+        ],
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    }
+    ]
+}
